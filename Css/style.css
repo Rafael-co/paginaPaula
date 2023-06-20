@@ -39,7 +39,7 @@
 #primeira__tela{
     width: 98.5vw;
     height: 83vh;
-    background-image: url("/src/consutorio2\ \(1\).jpeg");
+    background-image: url("../src/consutorio2\ \(1\).jpeg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position:top ;
@@ -200,37 +200,37 @@
     justify-content: center;
 }
 #procedimento1{
-    background-image: url("/src/preventiva.JPG");
+    background-image: url("../src/preventiva.JPG");
     background-size: cover;
     background-position: center;
 }
 #procedimento2{
-    background-image: url("/src/restauraçãoDentaria.JPG");
+    background-image: url("../src/restauraçãoDentaria.JPG");
     background-size: cover;
     background-position: center;
 }
 #procedimento3{
-    background-image: url("/src/denteUni.JPG");
+    background-image: url("../src/denteUni.JPG");
     background-size: cover;
     background-position: center;
 }
 #procedimento4{
-    background-image: url("/src/lente-de-contato-dental.jpg");
+    background-image: url("../src/lente-de-contato-dental.jpg");
     background-size: cover;
     background-position: center;
 }
 #procedimento5{
-    background-image: url("/src/clareamento.JPG");
+    background-image: url("../src/clareamento.JPG");
     background-size: cover;
     background-position: center;
 }
 #procedimento6{
-    background-image: url("/src/analiseRosto.JPG");
+    background-image: url("../src/analiseRosto.JPG");
     background-size: cover;
     background-position: center;
 }
 #procedimento7{
-    background-image: url("/src/preenchimentoFacial.JPG");
+    background-image: url("../src/preenchimentoFacial.JPG");
     background-size: cover;
     background-position: center;
     margin-right: 60vw;
