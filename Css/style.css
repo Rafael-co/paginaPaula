@@ -475,11 +475,11 @@
    
    }
    .logo{
-     background-image:url("/src/transparencia.png");
+     background-image:url("../src/transparencia.png");
      width: 80vw;
      background-position: center;
      background-repeat: no-repeat;
-     background-size: 30vw auto;
+     background-size: 15vw auto;
      margin-top: 3vh;
      text-align: center;
    }
