@@ -1,0 +1,261 @@
+@media (max-width: 768px) {
+  .navBar__inicio{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  
+  }
+  :root {
+    --cor-letra: #CCB4AC; 
+    --cor-background:#BAB5BB/* Definindo a variável --cor-letra com o valor da cor desejada */
+  }
+  .img__buger button{
+    display: block;
+  }
+  .img__buger{
+      display: flex;
+      }
+ 
+  .navBar__inicio img{
+      width: 90%;
+      height: 17vh;
+      
+      
+  }
+  
+  .navBar__inicio button{
+    width: auto;
+    background-color: transparent;
+    border: none;
+   
+  }
+  
+  #navBarInicio__elementos{
+    display: none ;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  #navBarInicio__elementos a{
+      align-self: center;
+      text-decoration: none;
+      font-weight: 300;
+      color: var(--cor-letra);
+      font-size: 1.2rem;
+  }
+  #primeira__tela {
+    height: 80vh;
+    background-position: right;
+    width: 100vw;
+   
+
+  }
+.primeira__tela__textoInicial{
+  width: 65vw;
+  height: 45vh;
+  top: 34.3vh;
+  position: relative;
+  font-size: 2vh;
+  justify-content: flex-end;
+}
+.primeira__tela__textoInicial :nth-child(1){
+  font-size: 4vh;
+  margin: 2vh 0 0 0;
+}
+.primeira__tela__textoInicial :nth-child(2){
+  font-size: 4vh;
+  margin-top: 2vh;
+}
+.primeira__tela__button{
+  width: 100%;
+  margin: 0;
+}
+.primeira__tela__button a{
+  width: 40%;
+  height: 5vh;
+  margin-bottom: 2vh;
+  text-decoration: none;
+  font-size: 0.7rem !important;
+  
+}
+
+
+#segunda__tela{
+   
+    flex-direction: column-reverse;
+    height: auto;
+
+  }
+.segunda__tela__img{
+    margin-top: 5vh;
+    height: 50vh;
+    width: auto;
+  }
+
+.segunda__tela__sobreMim{
+    width: 80%;
+    height: auto;
+  }
+.sobreMim__titulo{
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+  }
+.sobreMim__titulo{
+    text-align: center;
+    font-size: 1.7em;
+
+    font-weight: 300;
+    margin-top: 0.7em;
+  }
+#procedimento__tela{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+
+ height:290vh ;
+  }
+#procedimento__tela h2{
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 300;
+  margin-top: 1vh;
+  margin-bottom:2vh;
+  padding: 0;
+  color: white;
+  width: 98vw;
+  height: 2%;
+}
+.procedimento{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+#procedimento7{
+  margin: 0;
+}
+.procedimento_model{
+  width: 80%;
+  height: calc(1/2 * 70vh);
+  margin: 0 0 2vh;
+  
+}
+.buttom__accordion{
+max-width: 60vw;
+white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ 
+#contato__tela{
+  width: 100vw;
+  height: 70vh;
+  }
+  .contato__div{
+    width: 100%;
+    border-radius: 0;
+    height: 100%;
+    padding-top: 5vh;
+  }
+  .contato__div h3{
+    margin-bottom: 2vh;
+  }
+  .contato__conteudo img {
+    display: none;
+  }
+  .contato__button{
+    width: 100%;
+    
+  }
+  .contato__button :first-child, .contato__button :last-child{
+    border-radius: 2vw;
+    width: 30%;
+    padding-top: 3vw;
+    height: 5vh;
+    font-size: 3vw !important;
+  }
+  .rodape{
+   height: 150vh;
+   margin-top: 3vh;
+  }
+  .rodape__conteudo{
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    
+  }
+  .img__footer {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+  }
+  .footer__contato{
+    height: 15%;
+   
+  }
+  .rodape__conteudo__centro{
+    flex-direction: column;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    
+  }
+  .links{
+    height: 30%;
+    width: 80%;
+    
+  }
+  .funcionamento{
+    height: 50%;
+    width: 80%;
+  }
+
+                                 /* AQUI COMEÇA A PAGINA SOBRE MIM */
+.sobreMim {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  background-color: var(--cor-background);
+
+
+}
+.sobreMim p{
+  color: white;
+  font-size: 5vw;
+  padding-top: 2vh ;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  
+}
+.sobre, #sobre__mim {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo h3{
+ margin-top: 2vw;
+ font-size: 5vw;
+}
+.logo{
+  background-image:url("/src/transparencia.png");
+  width: 80vw;
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: 80vw auto;
+margin-top: 3vh;
+}
+.logo span {
+  margin: 0 2vw 2vw 2vw;
+  font-size: 4vw;
+}
+.img__sobre{
+  margin-top: 2vw;
+  width: 70%;
+  height: auto;
+}
+}

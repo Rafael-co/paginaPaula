@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--cor-letra);
+}
+.img__logo{
+    width: auto;
+    height: 18vh;
+}
+:root {
+    --cor-letra: #CCB4AC; 
+    --cor-background:#BAB5BB/* Definindo a variável --cor-letra com o valor da cor desejada */
+  }
+.navBar__inicio{
+    width: 97vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+
+    
+}
+#navBarInicio__elementos{
+    width: 40%;
+    display: flex ;
+    justify-content: space-around !important;
+    
+}
+#navBarInicio__elementos a {
+    align-self: center;
+    text-decoration: none;
+    font-weight: 300;
+    color: var(--cor-letra);
+    font-size: 1.2rem;
+}
+.img__buger button{
+    display: none   ;
+}
+#primeira__tela{
+    width: 98.5vw;
+    height: 83vh;
+    background-image: url("/src/consutorio2\ \(1\).jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:top ;
+   border-bottom: 5px solid  var(--cor-background);
+   border-top: 5px solid  var(--cor-background);
+   
+  
+}
+
+.primeira__tela__textoInicial{
+    background-color: white;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    left: 0;
+    top:29vh ;
+    width: 34vw;
+    height: 69.9vh;
+    align-items: flex-start;
+    justify-content:end;
+   
+    
+    border-top-right-radius: 100%;
+    border-bottom: 7px solid var(--cor-background);
+
+    
+
+}
+.primeira__tela__textoInicial :nth-child(1),.primeira__tela__textoInicial :nth-child(2){
+   
+    font-size: 40px;
+}
+
+.primeira__tela__textoInicial p {
+   
+   
+   margin-left: 3vw;
+    
+}
+.primeira__tela__button{
+    margin-top: 3vh;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+}
+.primeira__tela__button a{
+   cursor: pointer;
+   text-decoration: none;
+}
+.primeira__tela__button :first-child{
+  margin-left: 3vw;
+  background-color: var(--cor-background);
+  color: white;
+  border: none;
+
+
+ 
+}
+.primeira__tela__button :nth-child(2){
+    background-color: white;
+    text-decoration: none;
+    color: var(--cor-letra);
+    border: 1px solid  var(--cor-letra) ;
+    margin-left: 1vw;
+}
+.primeira__tela__button a{
+    text-align: center;
+    padding: 0.2em;
+    font-size: 1rem !important;
+    width: 30%;
+    height: 50%;
+    border-radius: 0.5vw;
+}
+#segunda__tela{
+    width: 97vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.segunda__tela__sobreMim {
+    text-align: center;
+    width: 50vw;
+    height:auto;
+    
+}
+.segunda__tela__img{
+
+    width: auto;
+    height: 90%;
+}
+.sobreMim__titulo{
+    text-align: center;
+    font-size: 1.7em;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    margin-bottom: 0.7em;
+}
+.sobreMim__subtitulo{
+    font-size: 1.5em;
+    font-weight: 300;
+    
+   
+    
+}
+.sobreMim__txtPrincipal{
+    text-align: start;
+    margin-top: 3vh;
+}
+.sobreMim__button{
+    font-size: 1.5rem !important;
+    color: var(--cor-letra);
+    width: 15vw;
+    height: 7vh;
+    text-decoration: underline var(--cor-letra);
+   
+   
+}
+.sobreMim__button:hover {
+    cursor:pointer;
+}
+#procedimento__tela{
+    width: 98.7vw;
+    height: 185vh;
+    background-color: var(--cor-background);
+   
+   
+}
+#procedimento__tela h2{
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 1em;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    font-weight: 300 !important;
+    margin-bottom: 0.7em;
+    color: white;
+    width: 98vw;
+}
+.procedimento{
+    width: 98vw;
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.procedimento_model{
+    border-radius: 5rem;
+    margin:4vh ;
+    width:calc(1/4 * 100vw);
+    height:calc(1/4 * 170vh);
+    border: 2px solid white;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#procedimento1{
+    background-image: url("/src/preventiva.JPG");
+    background-size: cover;
+    background-position: center;
+}
+#procedimento2{
+    background-image: url("/src/restauraçãoDentaria.JPG");
+    background-size: cover;
+    background-position: center;
+}
+#procedimento3{
+    background-image: url("/src/denteUni.JPG");
+    background-size: cover;
+    background-position: center;
+}
+#procedimento4{
+    background-image: url("/src/lente-de-contato-dental.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#procedimento5{
+    background-image: url("/src/clareamento.JPG");
+    background-size: cover;
+    background-position: center;
+}
+#procedimento6{
+    background-image: url("/src/analiseRosto.JPG");
+    background-size: cover;
+    background-position: center;
+}
+#procedimento7{
+    background-image: url("/src/preenchimentoFacial.JPG");
+    background-size: cover;
+    background-position: center;
+    margin-right: 60vw;
+}
+
+.buttom__modal{
+    background-color: white;
+    border: none;
+    text-decoration: underline var(--cor-letra);
+}
+.buttom__modal__fechar{
+    background-color: var(--cor-background);
+}
+.buttom__accordion{
+    background-color: var(--cor-letra);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5vw;
+   max-width: 20vw;
+    height:auto;
+}
+#contato__tela{
+    width: 98.7vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #bab5bb26;
+}
+.contato__div{
+    width: 60vw;
+    height:70vh;
+    border-radius: 100%;
+  
+    
+    
+}
+.contato__div h2, .contato__div h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    font-weight: 300 !important;
+}
+.contato__conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.contato__conteudo img{
+    width: auto;
+    height: 50vh;
+   
+}
+.texto{
+    margin-right: 5vw;
+   
+}
+.texto svg{
+    margin-right: 2vw;
+}
+.contato__button{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 10vh;
+}
+.contato__button :first-child{
+    background-color: #CBB6B4;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem !important;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+ 
+    
+}
+
+.contato__button :last-child{
+    background-color: white;
+    color:#CBB6B4 ;
+    border: 1px solid  #CBB6B4 ;
+    text-decoration: none;
+    font-size: 1rem !important;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    
+}
+.rodape{
+    width: 98.7vw;
+    height: 30vh;
+    background-color:#878988 ;
+}
+.img__footer{
+ width:auto;
+ height: 100%;
+}
+.rodape__conteudo{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.rodape__conteudo__centro{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+   align-items: center;
+}
+.funcionamento{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2vh;
+}
+.funcionamento :first-child{
+    font-size: 0.9em;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white !important;
+   
+}
+.funcionamento :nth-last-child(-n+2){
+    color: white !important;
+    font-size: 0.7em;
+    border-bottom: 1px solid white;
+}
+.links{
+    width: 40%;
+    margin-right: 5vw;
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    
+   
+}
+.links :first-child{
+    font-size: 0.9em;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white !important;
+    text-align: center;
+}
+.links a {
+    width: 100%;
+    text-decoration: none; 
+    color: white !important;
+    font-size: 0.8em;
+    border-bottom: 1px solid white;
+}
+.icon__rede a{
+    width: 100%;
+    text-decoration: none; 
+    color: white !important;
+    font-size: 0.8em;
+    border-bottom: 1px solid white;
+    margin-left: 1vw;
+  
+}
+.footer__contato{
+    height: 90%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.footer__contato :first-child{
+      font-size: 0.9em;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white !important;
+    text-align: center;
+}
+.icon__rede{
+    display: flex;
+    align-items: center;
+    
+}
+                                /* Pagina Sobre */
+.sobreMim{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    background-color: var(--cor-background);
+}
+.sobreMim p{
+    color: white;
+    font-size: 3vw;
+    padding-top: 4vh ;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    
+  }
+  .sobre{
+    margin-top: 3vh;
+    margin-left: 10%;
+    display: flex;
+    width: 80%;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  #sobre__mim{
+    margin-top: 3vh;
+    margin-left: 10%;
+    flex-direction: row;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .img__sobre{
+    margin-top: 2vw;
+    width: 40%;
+  
+    margin-top: 2vw;
+  }
+  .logo h3{
+    margin-top: 2vw;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    font-size: 2vw;
+   
+   }
+   .logo{
+     background-image:url("/src/transparencia.png");
+     width: 80vw;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 30vw auto;
+     margin-top: 3vh;
+     text-align: center;
+   }
+   .logo span {
+     margin: 0 2vw 2vw 2vw;
+     font-size: 1vw;
+   
+   }
+  .rodape{
+    margin-top: 5vh;
+  }
+  
