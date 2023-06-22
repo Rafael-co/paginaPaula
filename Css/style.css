@@ -41,9 +41,9 @@
     height: 83vh;
     background-image: url("../src/pagina_inicial/consulatorio__Logo.jpeg");
    background-repeat: no-repeat;
-   background-size: 110vw auto;
-   background-position-x: 0vw;
-   background-position-y:-40vh ;
+   background-size: 150% auto;
+   background-position-x: -30vw;
+   background-position-y:-73vh ;
    border-bottom: 5px solid  var(--cor-background);
    border-top: 5px solid  var(--cor-background);
    

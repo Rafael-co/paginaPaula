@@ -48,8 +48,9 @@
   #primeira__tela {
     height: 40vh;
     min-height: 300px;
-    background-size: 150% auto ;
-   background-position: center;
+    background-size: 200% auto ;
+   background-position-x: 62%;
+   background-position-y: 50%;
     width: 100vw;
     border: none;
     display: flex;
@@ -58,8 +59,8 @@
   }
 .primeira__tela__textoInicial{
   position: static;
- min-width: 150px;
- min-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
   max-width: 55vw;
   max-height: 28vh;
  font-size: 0.9em;
@@ -68,14 +69,14 @@
 }
 .primeira__tela__textoInicial :nth-child(1){
   font-size: 0.9em;
-  margin: 2vh 0 0 0;
+  margin: 2vh 0 0 5px;
 }
 .primeira__tela__textoInicial :nth-child(2){
   font-size: 0.9em;
   margin-top: 2vh;
 }
 .primeira__tela__textoInicial p{
-  margin-left: 0;
+  margin-left: 5px;
 }
 .primeira__tela__button{
   width: 100%;
