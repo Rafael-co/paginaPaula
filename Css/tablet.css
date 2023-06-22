@@ -22,18 +22,23 @@
     }
 
     #primeira__tela {
-        height: 70vh;
-        background-position-x: -25vw;
-        background-position-y: -20vw;
-
-        background-size: 150% auto;
+        max-height: 750.8px;
+        min-height: 500px;
+        background-position: center;
+        display: flex;
+        background-size: cover;
+        align-items: flex-end;
     }
 
     .primeira__tela__textoInicial {
         justify-content: flex-end;
-        top: 35vh;
-        width: 45vw;
-        height: 50.9vh;
+        position: relative;
+        position: static;
+
+        min-height:250px ;
+        min-width:350px ;
+        max-width: 350px;
+        max-height: 450px;
 
     }
 
