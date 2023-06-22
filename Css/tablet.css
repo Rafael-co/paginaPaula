@@ -1,100 +1,124 @@
 @media (min-width: 769px) and (max-width: 1024px) {
-    
-    .img__buger{
+
+    .img__buger {
         width: 30%;
         height: auto;
         display: flex;
         align-items: center;
     }
-    .img__logo{
+
+    .img__logo {
         width: 100%;
         height: auto;
-       
+
     }
-    #navBarInicio__elementos{
+
+    #navBarInicio__elementos {
         width: 65%;
     }
-    #navBarInicio__elementos a{
+
+    #navBarInicio__elementos a {
         font-size: 3vw;
     }
-    #primeira__tela{
-    background-position: right;
+
+    #primeira__tela {
+        height: 70vh;
+        background-position-x: -25vw;
+        background-position-y: -20vw;
+
+        background-size: 150% auto;
     }
+
     .primeira__tela__textoInicial {
-       justify-content: flex-end;
-        top: 48vh;
+        justify-content: flex-end;
+        top: 35vh;
         width: 45vw;
         height: 50.9vh;
-    
+
     }
-    .primeira__tela__button{
+
+    .primeira__tela__button {
         width: 100%;
         margin: 0;
         height: 20%;
     }
-    .primeira__tela__button a{
+
+    .primeira__tela__button a {
         width: 30%;
         height: 40%;
         text-decoration: none;
     }
 
-    .primeira__tela__textoInicial :nth-child(1){
-      
-        margin-bottom:5%;
+    .primeira__tela__textoInicial :nth-child(1) {
+
+        margin-bottom: 5%;
     }
-    #segunda__tela{
+
+    #segunda__tela {
         margin-left: 2vw;
         flex-direction: column-reverse;
         height: auto;
     }
-    .segunda__tela__img{
-       width: 50%;
-       margin-top: 2vh;
+
+    .segunda__tela__img {
+        width: 50%;
+        margin-top: 2vh;
     }
-    .sobreMim__txtPrincipal{
+
+    .sobreMim__txtPrincipal {
         width: 100%;
     }
-  
-    #procedimento__tela{
+
+    #procedimento__tela {
         height: 210vh;
     }
-    .procedimento_model{
+
+    .procedimento_model {
         width: calc(70vw/2);
     }
-    #procedimento7{
+
+    #procedimento7 {
         margin-right: 0;
     }
 
     .contato__div {
         width: 100%;
     }
-    .contato__button a{
-        width: 40% !important ;
+
+    .contato__button a {
+        width: 40% !important;
         height: 40% !important;
     }
-    .img__footer{
+
+    .img__footer {
         width: 20%;
         height: auto;
     }
-    .funcionamento{
+
+    .funcionamento {
         width: 45%;
     }
-    .links{
+
+    .links {
         width: 35%;
     }
-    .footer__contato{
+
+    .footer__contato {
         justify-content: center;
     }
-    .icon__rede{
+
+    .icon__rede {
         margin-top: 1vh;
     }
-       /* AQUI COMEÇA A PAGINA SOBRE  */
-    .sobreMim{
+
+    /* AQUI COMEÇA A PAGINA SOBRE  */
+    .sobreMim {
         width: 100vw;
         height: 15vh;
         text-align: center;
         background-color: var(--cor-background);
     }
+
     .sobreMim p {
         color: white;
         font-size: 7vw;
@@ -102,7 +126,9 @@
         letter-spacing: 0.2em;
         padding-top: 3vh;
     }
-    .sobre, #sobre__mim{
+
+    .sobre,
+    #sobre__mim {
         margin-top: 3vh;
         display: flex;
         flex-direction: column;
@@ -111,22 +137,26 @@
         width: 80vw;
         height: auto;
     }
-    .sobre img{
+
+    .sobre img {
         width: 80%;
         height: auto;
     }
-    .logo{
-        background-image:url("/src/transparencia.png");
-  width: 80vw;
-  background-position: center;
-  background-repeat: no-repeat;
-background-size: 80vw auto;
-margin-top: 3vh;
+
+    .logo {
+        background-image: url("/src/logo/transparencia__rosa.png") ;
+        width: 80vw;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 80vw auto;
+        margin-top: 3vh;
     }
-    .logo span{
+
+    .logo span {
         font-size: 4vw;
     }
-    .logo h3{
+
+    .logo h3 {
         font-size: 5vw;
     }
-  }
+}

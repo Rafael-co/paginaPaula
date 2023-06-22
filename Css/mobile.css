@@ -46,38 +46,40 @@
       font-size: 1.2rem;
   }
   #primeira__tela {
-    height: 80vh;
-    background-position: right;
+    height: 40vh;
+    background-size: 150% auto ;
+    background-position-x: -35vw;
+    background-position-y: -25vw;
     width: 100vw;
+    border: none;
    
 
   }
 .primeira__tela__textoInicial{
-  width: 65vw;
-  height: 45vh;
-  top: 34.3vh;
-  position: relative;
-  font-size: 2vh;
+  width: 45vw;
+  height: 28vh;
+  font-size: 3vw;
   justify-content: flex-end;
 }
 .primeira__tela__textoInicial :nth-child(1){
-  font-size: 4vh;
-  margin: 2vh 0 0 0;
+  font-size: 4.5vw;
+  margin: 2vh 0 0 2vw;
 }
 .primeira__tela__textoInicial :nth-child(2){
-  font-size: 4vh;
+  font-size: 4.5vw;
   margin-top: 2vh;
 }
 .primeira__tela__button{
   width: 100%;
   margin: 0;
+  text-align: center;
 }
 .primeira__tela__button a{
   width: 40%;
-  height: 5vh;
+ 
   margin-bottom: 2vh;
   text-decoration: none;
-  font-size: 0.7rem !important;
+  font-size: 0.5rem !important;
   
 }
 
@@ -242,7 +244,7 @@ white-space: nowrap;
  font-size: 5vw;
 }
 .logo{
-  background-image:url("/src/transparencia.png");
+  background-image:url("/src/logo/transparencia__rosa.png");
   width: 80vw;
   background-position: center;
   background-repeat: no-repeat;
