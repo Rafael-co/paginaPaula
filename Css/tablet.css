@@ -24,9 +24,10 @@
     #primeira__tela {
         max-height: 750.8px;
         min-height: 500px;
-        background-position: center;
+        background-position-x: 65%;
+        background-position-y: 65%;
         display: flex;
-        background-size: cover;
+        background-size: 200% auto;
         align-items: flex-end;
     }
 
@@ -75,7 +76,7 @@
     }
 
     #procedimento__tela {
-        height: 210vh;
+        height: 250vh;
     }
 
     .procedimento_model {
@@ -85,7 +86,9 @@
     #procedimento7 {
         margin-right: 0;
     }
-
+    #procedimento10{
+margin-right: 0
+    }
     .contato__div {
         width: 100%;
     }

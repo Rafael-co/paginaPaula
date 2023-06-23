@@ -126,7 +126,7 @@
  flex-direction: column;
  flex-wrap: wrap;
 
- height:290vh ;
+ height:390vh ;
   }
 #procedimento__tela h2{
   text-align: center;
@@ -148,6 +148,9 @@
 }
 #procedimento7{
   margin: 0;
+}
+#procedimento10{
+  margin-right: 0;
 }
 .procedimento_model{
   width: 80%;
