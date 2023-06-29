@@ -39,13 +39,15 @@
 #primeira__tela{
     width: 98.5vw;
     height: 83vh;
-    background-image: url("../src/pagina_inicial/consulatorio__Logo.jpeg");
-   background-repeat: no-repeat;
-   background-size: 150% auto;
-   background-position-x: 60%;
-   background-position-y:45% ;
-   border-bottom: 5px solid  var(--cor-background);
-   border-top: 5px solid  var(--cor-background);
+    background-image: url(../src/logo/Rosa\ Cinza.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    background-color: #858B89;
+    
+    border-bottom: 5px solid  var(--cor-background);
+    border-top: 5px solid  var(--cor-background);
    
   
 }
@@ -187,6 +189,7 @@
     height: 170vh;
     display: flex;
     justify-content: center;
+ 
     flex-wrap: wrap;
 
 }
@@ -250,10 +253,13 @@
 }
 #procedimento10 {
    margin-right: calc(0.57*100vw);
-   background-image: url("../src/procedimentos/Blefaroplastia.jpeg");
+   background-image: url("../src/procedimentos/IMAGEM-JATO-DE-PLASMA-BLOG.jpg");
    background-size:cover;
-   background-position: bottom right;
+    background-position: bottom ;
+    background-repeat: no-repeat;
 }
+
+
 
 .buttom__modal{
     background-color: white;
@@ -270,8 +276,10 @@
     border: none;
     padding: 0.5vw;
    max-width: 20vw;
+   font-size: 0.9em;
     height:auto;
 }
+
 #contato__tela{
     width: 98.7vw;
     height: 80vh;
@@ -494,7 +502,6 @@
    
    }
    .logo{
-     background-image:url("../src/logo/transparencia__rosa.png");
      width: 80vw;
      background-position: center;
      background-repeat: no-repeat;

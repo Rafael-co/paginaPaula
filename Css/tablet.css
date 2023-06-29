@@ -24,10 +24,10 @@
     #primeira__tela {
         max-height: 750.8px;
         min-height: 500px;
-        background-position-x: 65%;
-        background-position-y: 65%;
+       background-position-y: 15%;
+      
         display: flex;
-        background-size: 200% auto;
+        background-size: contain;
         align-items: flex-end;
     }
 
@@ -92,7 +92,12 @@ margin-right: 0
     .contato__div {
         width: 100%;
     }
-
+    .contato__conteudo img{
+        height: 40vh;
+    }
+    .contato__div h2{
+        margin-bottom: 5%;
+    }
     .contato__button a {
         width: 40% !important;
         height: 40% !important;
@@ -109,6 +114,9 @@ margin-right: 0
 
     .links {
         width: 35%;
+    }
+    .links :first-child {
+        margin-bottom: 1vh;
     }
 
     .footer__contato {
@@ -152,7 +160,6 @@ margin-right: 0
     }
 
     .logo {
-        background-image: url("/src/logo/transparencia__rosa.png") ;
         width: 80vw;
         background-position:center;
         background-repeat: no-repeat;
