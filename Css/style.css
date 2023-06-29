@@ -289,7 +289,7 @@
     background-color: #bab5bb26;
 }
 .contato__div{
-    width: 60vw;
+    width: 100%;
     height:70vh;
     border-radius: 100%;
   
@@ -307,9 +307,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
 
 }
+
 .contato__conteudo img{
     width: auto;
     height: 50vh;
@@ -324,8 +326,9 @@
 }
 .contato__button{
     display: flex;
+
     text-transform: uppercase;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     align-items: center;
     height: 10vh;
@@ -339,9 +342,14 @@
     width: 10vw;
     height: 7vh;
     border-radius: 0.5vw;
+    margin-right: 2vw;
     padding: 0.5vw;
  
     
+}
+.texto_icon{
+    display: flex;
+   
 }
 
 .contato__button :last-child{
