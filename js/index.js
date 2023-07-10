@@ -32,6 +32,6 @@ accordions.forEach((accordion) => {
     });
 
     // Abre ou fecha o accordion clicado
-    collapse.classList.toggle('show');
+    
   });
 });
