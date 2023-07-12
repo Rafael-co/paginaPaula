@@ -44,10 +44,8 @@
     background-repeat: no-repeat;
     background-position: right;
     
-    background-color: #858B89;
-    
-    border-bottom: 5px solid  var(--cor-background);
-    border-top: 5px solid  var(--cor-background);
+    background-color: #858b894c;
+
    
   
 }
@@ -66,7 +64,7 @@
    
     
     border-top-right-radius: 100%;
-    border-bottom: 7px solid var(--cor-background);
+    border-bottom: 7px solid #858b894c;
 
     
 

@@ -55,6 +55,7 @@
     min-height: 300px;
     background-size: 100%;
     background-position-y:  top;
+    background-position-x:  left;
     width: 100vw;
     border: none;
     display: flex;
