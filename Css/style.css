@@ -39,12 +39,14 @@
 #primeira__tela{
     width: 98.5vw;
     height: 83vh;
-    background-image: url(../src/logo/Rosa\ Cinza.png);
-    background-size: 70%;
+    background-image: url(../src/pagina_inicial/teste10.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position-y: 20%; 
+    background-position-x: 25px; 
+   
     
-    background-color: #858b894c;
+    
 
    
   
@@ -64,7 +66,7 @@
    
     
     border-top-right-radius: 100%;
-    border-bottom: 7px solid #858b894c;
+    border-bottom: 3px solid #727773;
 
     
 

@@ -1,4 +1,5 @@
-@media (max-width: 769px) {
+@media (max-width: 769px)  {
+
   .navBar__inicio{
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@
       
       
   }
-  
+
   .navBar__inicio button{
     width: auto;
     background-color: transparent;
@@ -51,11 +52,10 @@
  
   }
   #primeira__tela {
-    height: 40vh;
-    min-height: 300px;
-    background-size: 100%;
-    background-position-y:  top;
-    background-position-x:  left;
+     height: 39vh; 
+
+    background-size: contain;
+    background-position: center  ;
     width: 100vw;
     border: none;
     display: flex;
@@ -290,5 +290,22 @@ margin-top: 3vh;
   margin-top: 2vw;
   width: 70%;
   height: auto;
+}
+
+ /*                               */
+@media (max-height:812px) {
+  #primeira__tela {
+    height: 35vh; 
+
+   background-size: contain;
+   background-position: center  ;
+   width: 100vw;
+   border: none;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-end;
+
+ }
 }
 }

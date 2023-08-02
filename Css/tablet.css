@@ -24,10 +24,11 @@
     #primeira__tela {
         max-height: 750.8px;
         min-height: 500px;
-       background-position-y: 15%;
-      
+      background-position-x:90% ; 
+      background-position-y: ; 
+     
+          
         display: flex;
-        background-size: contain;
         align-items: flex-end;
     }
 
